@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jomhuria';
+}
+
+#container{
+    height: 100vh;
+    width: 100%;
+    background: #96dc2e98;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Login_form{
+    background-color: #8D69D9;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px;
+    border-radius: 30px 0 30px 0;
+    border: 2px solid #FFE500;
+    gap: 30px;
+}
+
+#social_midia a i{
+    width: 20px;
+    margin: 0 auto;
+}
+
+#social_midia a{
+    border: 2px solid #FFE500;
+    border-radius: 30px 30px 30px 30px;
+    padding: 8px;
+    margin: 25px;
+    background-color: #090909;
+    color: #fff;
+}
+
+#form_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form_header h1{
+    font-size: 50px;
+    position: relative;
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    cursor: text;
+    border: 2px solid #FFE500;
+    border-radius: 20px;
+    background-color: #bdb4b4;
+   
+}
+
+textarea#mensagem{
+    background-color: #bdb4b4;
+}
+
+.boxinput p{
+    font-size: 30px;
+}
+
+.field input{
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 18px;
+    padding: 0px 5px;
+    color: #fff;
+}
+
+#esqueceu a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+#esqueceu a:hover{
+    color: #FFE500;
+}
+
+#login_entrar{
+    border: none;
+    background-color: #b2a6a6;
+    border: 2px solid #FFE500;
+    color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#login_entrar a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#login_entrar a:hover{
+    color: #4B0096;
+}
+
